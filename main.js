@@ -6,7 +6,7 @@ const request = require('request');
 const program = require('commander');
 
 program
-.version('0.0.1', '-v, --version')
+.version('0.0.2', '-v, --version')
 .usage('-c SLASH_COMMAND -t "SLASH_COMMAND_TEXT" -w WORKSPACE_NAME -C CHANNEL_ID -T SLACK_API_TOKEN')
 .option('-w, --workspace <slack workspace name>', 'slack workspace name')
 .option('-c, --command <slash command name>', 'slash slash command without /')
