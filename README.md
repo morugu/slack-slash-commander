@@ -10,27 +10,27 @@ $ npm install -g slack-cmd
 
 ## Options
 #### -w
-Slack workspace name.  
-You can get slack app side menu or web URL (https://WORKSPACE_NAME.slack.com/).
+slack workspace name.  
+You can get web URL https://WORKSPACE_NAME.slack.com/
 
 #### -c
-Slack Slash Command.  
-`/topic this is develop topic` => topic
+slack slash command.  
+ex. `/topic this is develop topic` => topic
 
 #### -t
-Slack Slash Command text.  
-`/topic this is develop topic` => "this is develop topic"
+slack slash command text.  
+ex. `/topic this is develop topic` => "this is develop topic"
 
 #### -C
 Slack Channel ID.  
 How to get Channel ID ?  
-1. Go to your web URL (https://WORKSPACE_NAME.slack.com/).
+1. Go to your web URL https://WORKSPACE_NAME.slack.com/
 2. Click the channel.
-3. Find the Channel ID after /messages/ (https://WORKSPACE_NAME.slack.com/messages/CHANNEL_ID)
+3. Find the Channel ID after /messages/ https://WORKSPACE_NAME.slack.com/messages/CHANNEL_ID
 
 #### -T
 Slack API Token.  
-You can get https://api.slack.com/custom-integrations/legacy-tokens
+You can get URL https://api.slack.com/custom-integrations/legacy-tokens
 
 ## Example
 
