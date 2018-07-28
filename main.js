@@ -9,8 +9,8 @@ program
 .version('0.0.1', '-v, --version')
 .usage('-c SLASH_COMMAND -t "SLASH_COMMAND_TEXT" -w WORKSPACE_NAME -C CHANNEL_ID -T SLACK_API_TOKEN')
 .option('-w, --workspace <slack workspace name>', 'slack workspace name')
-.option('-c, --command <slash command name>', 'slash command without /')
-.option('-t, --text "<slash command text>"', 'slash command text')
+.option('-c, --command <slash command name>', 'slash slash command without /')
+.option('-t, --text "<slash command text>"', 'slash slash command text')
 .option('-C, --channel <channel id>', 'slack channel id')
 .option('-T, --token <slack api token>', 'slack api token')
 .parse(process.argv);

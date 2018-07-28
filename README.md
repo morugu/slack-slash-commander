@@ -1,7 +1,9 @@
 # Slack Slash Commander
 
-call slack slash commands from cli.
+Call slack slash commands from cli.
 
+What is slack slash commands ?  
+=> https://api.slack.com/slash-commands
 
 ## Installation
 ```
