@@ -36,8 +36,16 @@ You can get URL https://api.slack.com/custom-integrations/legacy-tokens
 
 ## Example
 
-slash command set topic: `/topic this is develop topic`
+### slash command set topic: `/topic this is develop topic`
 
 ```
 $ slack-cmd -w xxx -c topic -t "this is develop topic" -C xxxxx -T xxxx-xxxxxxxxx-xxxx
+```
+
+### subscribe GitHub notification: `/github subscribe owner/repository`
+
+Install GitHub Slack App: https://slack.com/apps/A8GBNUWU8-github
+
+```
+$ slack-cmd -w xxx -c github -t "subscribe owner/repository" -C xxxxx -T xxxx-xxxxxxxxx-xxxx
 ```
