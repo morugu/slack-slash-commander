@@ -55,7 +55,7 @@ const main = (program) => {
     });
 }
 
-let error = '';
+let err = '';
 if (!program.workspace) {
     error = 'Error: -w option is required argument.';
 }
@@ -69,7 +69,10 @@ if (!program.channel) {
     err = 'Error: -C option is required argument.';
 }
 if (!program.token) {
-    console.log('Error: -T option is required argument.');
+    err = 'Error: -T option is required argument.';
+}
+if (err) {
+    console.log(err);
     return;
 }
 
