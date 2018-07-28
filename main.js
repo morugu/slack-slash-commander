@@ -57,7 +57,7 @@ const main = (program) => {
 
 let err = '';
 if (!program.workspace) {
-    error = 'Error: -w option is required argument.';
+    err = 'Error: -w option is required argument.';
 }
 if (!program.command) {
     err = 'Error: -c option is required argument.';
